@@ -339,15 +339,25 @@ export const Contact: React.FC<ContactProps> = ({ onPageChange }) => {
                     <span className="font-semibold text-base sm:text-lg">
                       Monday - Friday
                     </span>
-                    <span className="text-sm sm:text-lg">9:00 AM - 6:00 PM</span>
+                    <span className="text-sm sm:text-lg">
+                      9:00 AM - 6:00 PM
+                    </span>
                   </div>
                   <div className="flex justify-between items-center py-2 sm:py-3 border-b border-gray-300">
-                    <span className="font-semibold text-base sm:text-lg">Saturday</span>
-                    <span className="text-sm sm:text-lg">10:00 AM - 2:00 PM</span>
+                    <span className="font-semibold text-base sm:text-lg">
+                      Saturday
+                    </span>
+                    <span className="text-sm sm:text-lg">
+                      10:00 AM - 2:00 PM
+                    </span>
                   </div>
                   <div className="flex justify-between items-center py-2 sm:py-3">
-                    <span className="font-semibold text-base sm:text-lg">Sunday</span>
-                    <span className="text-gray-500 text-sm sm:text-lg">Closed</span>
+                    <span className="font-semibold text-base sm:text-lg">
+                      Sunday
+                    </span>
+                    <span className="text-gray-500 text-sm sm:text-lg">
+                      Closed
+                    </span>
                   </div>
                 </div>
               </div>
@@ -359,7 +369,9 @@ export const Contact: React.FC<ContactProps> = ({ onPageChange }) => {
       <section className="py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="bg-gradient-to-r from-primary to-secondary p-6 sm:p-8 rounded-xl text-center text-white shadow-xl">
-            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">Prefer to Call?</h2>
+            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">
+              Prefer to Call?
+            </h2>
             <p className="text-sm sm:text-base text-gray-100 mb-4 sm:mb-6 px-4">
               Our customer service team is ready to assist you with your
               logistics needs
