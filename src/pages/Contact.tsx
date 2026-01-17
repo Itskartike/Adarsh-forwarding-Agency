@@ -52,7 +52,6 @@ export const Contact: React.FC<ContactProps> = ({ onPageChange }) => {
         "wA77jT8CrAnwi5fOt"
       );
 
-      console.log("Email sent successfully:", result);
       setSubmitted(true);
 
       setTimeout(() => {
@@ -66,7 +65,6 @@ export const Contact: React.FC<ContactProps> = ({ onPageChange }) => {
         });
       }, 3000);
     } catch (err) {
-      console.error("Failed to send email:", err);
       setError(true);
 
       setTimeout(() => {

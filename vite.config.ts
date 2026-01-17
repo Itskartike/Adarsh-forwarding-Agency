@@ -7,4 +7,21 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom'],
+          emailjs: ['@emailjs/browser'],
+        },
+      },
+    },
+    sourcemap: false,
+    minify: 'esbuild',
+    target: 'es2015',
+  },
+  preview: {
+    port: 4173,
+    strictPort: true,
+  },
 });
